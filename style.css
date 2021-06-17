@@ -1,0 +1,48 @@
+body
+{
+ 
+  background: linear-gradient(  #bbabdb 0%, #d44ac4 100% ) ;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px solid black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+label
+{
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.heading
+{
+  background-color: #5a32a8;
+  font-size: 18px;
+  letter-spacing: 10px;
+  border-radius: 10px;
+  color: white;
+ display: inline-block;
+ vertical-align: middle;
+ padding: 6px 12px;
+}
