@@ -33,8 +33,8 @@ function speak()
     var synth = window.speechSynthesis;
     speakdata_1 = "The first prediction is" + prediction_1;
     speakdata_2 = "The first prediction is" + prediction_2;
-    var utterthis = new SpeechSynthesisUtterance(speakdata_1 + speakdata_2);
-    synth.speak(utterthis);
+    var utterThis = new SpeechSynthesisUtterance(speakdata_1 + speakdata_2);
+    synth.speak(utterThis);
 }
 
 function check()
@@ -55,32 +55,32 @@ function gotResult(error , results)
         prediction_2 = results[1].label;
         speak();
 
-        if(results[0].label == "happy")
+        if(results[0].label == "Happy")
         {
             document.getElementById("update_emoji").innerHTML = "&#128522;";
         }
 
-        if(results[0].label == "sad")
+        if(results[0].label == "Sad")
         {
             document.getElementById("update_emoji").innerHTML = "&#128512;";
         }
 
-        if(results[0].label == "angry")
+        if(results[0].label == "Angry")
         {
             document.getElementById("update_emoji").innerHTML = "&#128532;";
         }
 
-        if(results[1].label == "happy")
+        if(results[1].label == "Happy")
         {
             document.getElementById("update_emoji_2").innerHTML = "&#128522;";
         }
 
-        if(results[1].label == "sad")
+        if(results[1].label == "Sad")
         {
             document.getElementById("update_emoji_2").innerHTML = "&#128512;";
         }
 
-        if(results[1].label == "angry")
+        if(results[1].label == "Angry")
         {
             document.getElementById("update_emoji_2").innerHTML = "&#128532;";
         }
