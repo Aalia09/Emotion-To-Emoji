@@ -57,32 +57,32 @@ function gotResult(error , results)
 
         if(results[0].label == "happy")
         {
-            document.getElementById("update_emoji").innerHTML = "&#128522";
+            document.getElementById("update_emoji").innerHTML = "&#128522;";
         }
 
         if(results[0].label == "sad")
         {
-            document.getElementById("update_emoji").innerHTML = "&#128512";
+            document.getElementById("update_emoji").innerHTML = "&#128512;";
         }
 
         if(results[0].label == "angry")
         {
-            document.getElementById("update_emoji").innerHTML = "&#128532";
+            document.getElementById("update_emoji").innerHTML = "&#128532;";
         }
 
         if(results[1].label == "happy")
         {
-            document.getElementById("update_emoji_2").innerHTML = "&#128522";
+            document.getElementById("update_emoji_2").innerHTML = "&#128522;";
         }
 
         if(results[1].label == "sad")
         {
-            document.getElementById("update_emoji").innerHTML = "&#128512";
+            document.getElementById("update_emoji_2").innerHTML = "&#128512;";
         }
 
         if(results[1].label == "angry")
         {
-            document.getElementById("update_emoji").innerHTML = "&#128532";
+            document.getElementById("update_emoji_2").innerHTML = "&#128532;";
         }
     }
 }
